@@ -61,7 +61,7 @@ label_article_openai(topic = "Paper with new original methodological development
 ######################
 library(reticulate)
 source_python("label_article_openai2.py")
-label_article_openai(topic = "Paper with new original methodological developments within PLS-SEM. The paper should not be review of old methods, but the original paper proposing the method", 
+label_article_openai2(topic = "Paper with new original methodological developments within PLS-SEM. The paper should not be review of old methods, but the original paper proposing the method", 
                      title = "A Note on How to Conduct a Factor-Based PLS-SEM Analysis", 
                      abstract = "The composite-factor estimation dichotomy has been the epicenter of a long and ongoing debate among proponents detractors use partial least squares (PLS) 
                      approach for structural equation modeling (SEM). In this brief research note author discusses implementation new method to conduct factor-based PLS-SEM analyses, 
